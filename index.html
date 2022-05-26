@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorge Lopez Gamarra</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8T9DMQQ9E1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-8T9DMQQ9E1');
+</script>
+
+</head>
+
+
+<body>
+    <header>
+        <div class="navbar-container">
+            <nav class="nav nav-bar">
+                <div>
+                    <a href="#" class="nav-logo">Home</a>
+                </div>
+                <div class="nav-menu" id="navmenu">
+                    <ul class="navbar-list">
+                        <li class="nav-item"><a class="nav-link" href="#about">About me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </div>
+        
+
+    </header>
+
+
+    <main>
+
+        <section class="home">
+            
+            <div class="textos">
+                <h1 class="titulo">Jorge Lopez Gamarra</h1>
+                <h3 class="subtitulo">Engineer specialised in industrial programming</h3>
+                <a href="#about" class="boton">About me</a>
+            </div>
+            <div class="sesgoabajo"></div>
+        </section>
+
+        <section class="about" id="about">
+            
+            <h2 class="section-title">About me</h2>
+            <div class="about-grid grid">
+                <div class="portrait">
+                    <img class="portrait-img .load-hidden" src="portrait.jpg" alt="">
+                </div>
+                
+                <div class="contenedor .load-hidden">
+                    <p class="parrafo">I am an Industrial Engineer specialising in programming, automation and robotics. I am passionate about technology and programming, and always willing to learn something new. </p>
+                    <p class="parrafo"> Throughout this site, I will show some of my expertise and examples of projects that I have been developing in different programming languages.</p>
+                    
+                    
+                </div>
+            </div>
+            
+
+            <a href="#contact" class="boton2 .load-hidden">Contact</a>
+        </section>
+
+        <section class="portfolio" id="projects">
+            <h2 class="section-title">Portfolio</h2>
+
+            <div class="portfolio-container grid">
+                <div class="portfolio-img">
+                    <video autoplay muted loop>
+                        <source src="video_robot.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="portfolio-link">
+                        <a href="http://hdl.handle.net/10251/174737" target="_blank">For my master's final project I developed a controller for a parallel robot with four degrees of freedom, designed to perform lower limb rehabilitation tasks. This controller was implemented in C++, and uses modern machine learning techniques to online learn and adapt to the dynamic and cinematic requirements of the robot</a>
+                    </div>
+                </div>
+                <div class="portfolio-img">
+                    <img src="NN.jpg" alt="">
+
+                    <div class="portfolio-link">
+                        <a href="https://github.com/JorgeLg3/NN-Legume-sorter" target="_blank">I have acquired knowledge about neural networks which I have used in my projects to identify and classify data</a>
+                    </div>
+                </div>
+                <div class="portfolio-img">
+                    <img src="python-av.png" alt="">
+
+                    <div class="portfolio-link">
+                        <a href="https://github.com/JorgeLg3/AV-Legume-Detection" target="_blank">I have developed Python-based projects on artificial vision, by applying segmentation, extraction, and automatic data labelling, items with self-made algorithms can be detected</a>
+                    </div>
+                </div>
+                <div class="portfolio-img">
+                    <video autoplay muted loop>
+                        <source src="r2d2.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="portfolio-link">
+                        <a href="http://dyor.roboticafacil.es/en/english-r2d2-dyor/" target="_blank">I made a 3D-printed replica of R2D2 programmed in arduino, which can be controlled by a mobile application developed by myself</a>
+                    </div>
+                </div>
+                <div class="portfolio-img">
+                    <img src="robotics.jpg" alt="">
+
+                    <div class="portfolio-link">
+                        <a href="#" target="_blank">I have knowledge and experience in programming industrial robots and automatas</a>
+                    </div>
+                </div>
+                <div class="portfolio-img">
+                    <img src="csat.png" alt="">
+
+                    <div class="portfolio-link">
+                        <a href="#" target="_blank">I developed a project using C# and a kinect camera to identify fruits in real time</a>
+                    </div>
+                </div>
+            </div>
+
+            <div> 
+                <div class="section5">
+                    <div class="sesgoarriba"></div>
+                    <div class="img-section5">
+                        <img src="IMG-0040.png" alt="">
+                        <div class="encima3">
+                            <div class="contenedor6">
+                                <h3>Web Development</h3>
+                                <p>Apart from other projects, this website was designed and programmed by myself using purely HTML and CSS web code, as a way to showcase my various works and an attempt to enhance my web programming skills.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div>
+                <div class="Contact-text">
+                    <h2>Contact</h2>
+                </div>
+                <div class="form">
+                    <form action="https://formspree.io/f/mjvlgglg"
+                    method="POST">
+                        <input class="contact-input" type="text" name="_name" id="" placeholder="Name">
+                        <input class="contact-input" type="email" name="_replyto" id="" placeholder="Email">
+                        <textarea class="contact-text" name="message" id="" cols="30" rows="10" placeholder="Message..."></textarea>
+                        <input class="contact-button" type="submit" value="Send">
+                    </form>
+                </div>
+                    
+                </div>
+                <div class="social-menu">
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/jorgelopezgamarra/" target="_blank"><img src="icon-linkedin.png"></a>
+                    </div>
+                    <div class="icon">
+                        <div class="icon2">
+                            <a href="https://github.com/JorgeLg3" target="_blank"><img src="icon-github.png"></a>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                </div>
+                
+                
+    
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer section">
+        <div class="footer-container">
+            <div class="footer-data">
+                <h2 class="footer-title">JORGE</h2>
+                <p class="footer-text">I'm Jorge and this is my personal website</p>
+            </div>
+
+            <div class="footer-data">
+                <h2 class="footer-title">EXPLORE</h2>
+                <ul>
+                    <li><a href="#home" class="footer-link">Home</a></li>
+                    <li><a href="#about" class="footer-link">About</a></li>
+                    <li><a href="#projects" class="footer-link">Portfolio</a></li>
+                    <li><a href="#contact" class="footer-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-data">
+                <h2 class="footer-title">SOCIAL</h2>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/jorgelopezgamarra/" target="_blank" class="footer-social">LinkedIn</a></li>
+                    <li><a href="https://github.com/JorgeLg3" target="_blank" class="footer-social">Github</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
